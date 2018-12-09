@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>index</title>
+<title>posts</title>
 </head>
 <body>
-<h1>Hello World!</h1>
-<a href="posts">posts</a>
+<h1>Posts</h1>
+<a href="/">retour accueil</a>
 </body>
 </html>
