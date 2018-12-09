@@ -72,6 +72,8 @@ local.properties
 
 .sts4-cache/
 
+build
+
 ### Java-Web ###
 ## ignoring target file
 target/
