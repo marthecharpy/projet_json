@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="com.monprojetJson.posts.Post" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,6 +9,8 @@
 </head>
 <body>
 <h1>Posts</h1>
-<a href="/">retour accueil</a>
+<ul>
+	<% Post post= (Post) request.getAttribute("post"); %>
+</ul>
 </body>
 </html>

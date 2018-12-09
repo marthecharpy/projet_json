@@ -16,7 +16,7 @@ public class Post {
 		return this.id;
 	}
 	
-	public void setId() {
+	public void setId(int id) {
 		this.id=id;
 	}
 	
@@ -24,7 +24,7 @@ public class Post {
 		return this.title;
 	}
 	
-	public void setTitle() {
+	public void setTitle(String title) {
 		this.title=title;
 	}
 	
@@ -32,7 +32,7 @@ public class Post {
 		return this.content;
 	}
 	
-	public void setContent() {
+	public void setContent(String content) {
 		this.content=content;
 	}
 
