@@ -2,16 +2,21 @@
   "posts": [
     {
       "id": 1,
-      "title": "Lorem Elsass",
-      "content":"Lorem Elsass ipsum leo libero. jetz gehts los picon bière quam, consectetur dignissim sit geïz gravida sed Huguette sit Coopé de Truchtersheim pellentesque vulputate tristique id"	
+      "title": "lorem ipsum",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     },
     {
       "id": 2,
-      "title": "Lorem ipsum",
-      "content":"Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim."
+      "title": "elsass ipsum",
+      "content": "Lorem Elsass ipsum Wurschtsalad DNA, geïz commodo placerat."
+    },
+    {
+      "id": 3,
+      "title": "ma présentation",
+      "content": "Aujourd'hui j'ai présenté mon projet."
     }
-    
-  ],
+  ]
+  
   "profile": {
     "name": "typicode"
   }
