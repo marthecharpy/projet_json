@@ -33,7 +33,7 @@ public class postsServlet extends HttpServlet {
 		var posts= new ArrayList<Post>();
 		posts.add(new Post(1, "Lorem Elsass", "Lorem Elsass ipsum leo libero. jetz gehts los picon bière quam, consectetur dignissim sit geïz gravida sed Huguette sit Coopé de Truchtersheim pellentesque vulputate tristique id"));
 		posts.add(new Post (1, "Lorem ipsum","Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim."));
-		request.setAttribute("post", posts);
+		request.setAttribute("posts", posts);
 		this.getServletContext().getRequestDispatcher("/WEB-INF/posts/index.jsp").forward(request, response);
 	}
 
